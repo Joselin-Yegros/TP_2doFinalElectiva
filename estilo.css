@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    color: #fff;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    background-color: #f74d4d;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+#ranking {
+    margin-top: 20px;
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    order: 1;
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+}
+
+.posicion {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.numero {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: white;
+    border: 2px solid #007bff; 
+}
+
+.icon {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+    border: 2px solid #007bff; 
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; 
+    color: white; 
+}
+
+.estrella {
+    color: gold; /* dorada */
+    border: none; /* Sin círculo */
+    background-color: transparent; 
+}
+
+.trapecio-container {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.trapecioC, .trapecioA {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.trapecioC {
+    background-color: #f74d4d; 
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+.trapecioA {
+    background-color: #3cb44b; 
+    font-size: 14px;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
